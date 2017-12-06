@@ -65,9 +65,9 @@ header	{
 	width: 20%;
 	height: 100%;
 	z-index: 9999;
-	-webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
-	-moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
-	box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+	-moz-box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
 }
 
 div.image {
@@ -101,8 +101,8 @@ div.image:hover {
 
 
 
- 
-main > div.container {
+
+main  {
 	
 	width: inherit;
 	margin-left: 20%;
@@ -190,7 +190,7 @@ div.gallery {
 }
 div.gallery:hover {
 	height: 300px;
-	background-color:  #666666;
+	background-color: #666666;
 	width: inherit;
 	opacity: 0.9;
 }
@@ -215,21 +215,29 @@ div.content {
 	padding: 20px;
 }
 
+/*toggleIcon*/
+#toggleIcon,
+#toggleIcon1 {
+	background-color: grey;
+	opacity: 0.8;
+	border-radius: 5px;
+	position: fixed;
+	top: 0;
+	left: 20%;
+	padding: 15px;
+	z-index: 222;
+	color: white;
+	font-size: 2em;
+}
+#toggleIcon1 {
+
+	left: 0;
+}
 
 
 
 /*footer*/
-
-footer {
-	margin-left: 20%;
+div.footer {
+ 
+ 	background-color: grey;
 }
-footer > p.copyright {
-	
-	padding-top: 10px;
-	height: 35px;
-	background-color: grey;
-	color: #fff;
-	position: relative;
-	
-}
-
