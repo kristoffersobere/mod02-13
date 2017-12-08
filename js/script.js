@@ -2,7 +2,7 @@
 var toggleIcon = document.querySelector('#toggleIcon');
  toggleIcon.addEventListener('click',function() {
  	
- 	console.log('toggleIcon is working');
+ 	//console.log('toggleIcon is working');
 
  	var header = document.querySelector('header');
  	header.style.left = '-20%';
@@ -22,7 +22,7 @@ var toggleIcon = document.querySelector('#toggleIcon');
 var toggleIcon1 = document.querySelector('#toggleIcon1');
  toggleIcon1.addEventListener('click',function() {
  	
- 	console.log('toggleIcon is working');
+ 	//console.log('toggleIcon is working');
 
  	var header = document.querySelector('header');
  	header.style.left = '0%';
